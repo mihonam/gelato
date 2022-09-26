@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>ResponsiveOP</title>
+    <link href="https://fonts.googleapis.com/css?family=Simonetta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header js-float-menu">
+    <h1 class="title">Gelateria</h1>
+
+    <div class="menu-trigger js-toggle-sp-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="nav-menu js-toggle-sp-menu-target">
+        <ul class="menu">
+            <li class="menu-item"><a href="#about" class="menu-link">about</a></li>
+            <li class="menu-item"><a href="#news" class="menu-link">news</a></li>
+            <li class="menu-item"><a href="#flavors" class="menu-link">flavors</a></li>
+            <li class="menu-item"><a href="#contact" class="menu-link">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="hero js-float-menu-target">
+        <h2 class="hero-title"></h2>
+    </section>
+
+    <section class="container" id="about">
+        <h2 class="container-title">ABOUT</h2>
+        <div class="container-body">
+            <p>
+                Gelateriaでは、イタリアの伝統的手法によって作られた、最高の自家製ジェラートを味わうことができます。
+                ベースのジェラートは、最高品質の卵・牛乳・クリーム・砂糖のみで作っています。そこへ、季節のフルーツや、チョコレート、ドライフルーツ、スパイス等を組み合わせています。
+                どれも研究と情熱から生まれた洗練された傑作です。
+            </p>
+        </div>
+    </section>
+
+    <section class="container container-ornament" id="news">
+        <h2 class="container-title">NEWS</h2>
+        <div class="container-body">
+            <ul class="news">
+                <li class="news-item">
+                    <a href="" class="news-link">
+                        <span class="news-date">2020.4.1</span>
+                        <span class="news-title">本格派ジェラート専門店「Gelateria」がオープンしました！！</span>
+                    </a>
+                </li>
+                <li class="news-item">
+                    <a href="" class="news-link">
+                        <span class="news-date">2020.7.1</span>
+                        <span class="news-title">ジェラート専門誌「il gelatiere italiano」に掲載頂きました！！</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="container" id="flavors">
+        <h2 class="container-title">FLAVORS</h2>
+        <div class="container-body">
+            <div class="panel-group panel-group-flex">
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato1.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>Mango</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato2.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>Lampone</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato3.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>Caffe</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato4.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>fragola</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato5.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>Mandarino</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato6.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>Cioccolata</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato7.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>Mirtillo</p>
+                    </div>
+                </div>
+                <div class="panel panel-gelato">
+                    <div class="panel-body">
+                        <img src="images/gelato8.jpg" alt="">
+                    </div>
+                    <div class="panel-foot">
+                        <p>limone</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container container-ornament" id="contact">
+        <h2 class="container-title">CONTACT</h2>
+        <div class="container-body">
+            <form action="" class="form">
+                <input type="text" class="input input-l" placeholder="Your Name">
+                <input type="email" class="input input-l" placeholder="Email">
+                <textarea class="input input-l input-textarea" placeholder="Message"></textarea>
+                <a class="button" href="#"><span>Hover</span><span>Button</span></a>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>Copyright ©️ Geratelia. All Rights Reserved</p>
+</footer>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
